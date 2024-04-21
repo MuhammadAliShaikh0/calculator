@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    border: solid black;
+    width: 350px;
+    height: 480px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.first{
+    background-color: rgb(71,136,255);
+    padding: 15px 75px 15px 75px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.line1{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.second{
+    border: solid;
+    padding: 20px 30px 25px 25px;
+    border-radius: 100px;
+}
+.third{
+    border: solid;
+    padding: 20px 25px 25px 25px;
+    border-radius: 100px;
+}
+.fourth{
+    border: solid;
+    padding: 25px 25px 25px 25px;
+    border-radius: 100px;
+}
+.fifth{
+    border: solid;
+    padding: 25px 25px 25px 25px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(29, 41,83);
+}
+.sixth{
+    border: solid;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    padding: 20px 30px 20px 30px;
+    border-radius: 100px;
+}
+.a{
+    padding: 20px 30px 20px 30px;
+    border-radius: 100px;
+}
+.b{
+    padding: 20px 30px 20px 30px;
+    border-radius: 100px;
+}
+.c{
+    padding: 20px 30px 20px 30px;
+    border-radius: 100px;
+}
+.seventh{
+    padding: 20px 30px 20px 30px;
+    border-radius: 100px;
+    font-size: 15px;
+    background-color: rgb(6, 6, 167);
+    color: white;
+}
+.eight{
+    border-radius: 100px;
+    padding: 20px 30px 20px 30px;
+    font-size: 15px;
+    background-color: yellow;
+    color: white;
+}
+.ninth{
+    border-radius: 100px;
+    padding: 20px 30px 20px 30px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+
+}
+.dot{
+    padding: 20px 30px 20px 30px;
+    border-radius: 100px;
+    font-size: 18px;
+}

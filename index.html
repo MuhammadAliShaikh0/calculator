@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><CENTER>CALCULATOR</CENTER></h1>
+    <div class="main">
+        <input id="inputField" class="first" readonly type="text">
+        <div class="line1">
+            <button class="second" onclick="getvalue('%')">%</button>
+            <button class="third" onclick="squareName()">x<sup>2</sup></button>
+            <button class="fourth" onclick="clrAll()">CE</button>
+            <button class="fifth" onclick="deletechar()">C</button>
+        </div>
+        <div class="line1">
+            <button class="a" onclick="getvalue('7')">7</button>
+            <button class="b" onclick="getvalue('8')">8</button>
+            <button class="c" onclick="getvalue('9')">9</button>
+            <button class="sixth" onclick="getvalue('-')">-</button>
+        </div>
+        <div class="line1">
+            <button class="a" onclick="getvalue('4')">4</button>
+            <button class="b" onclick="getvalue('5')">5</button>
+            <button class="c" onclick="getvalue('6')">6</button>
+            <button class="seventh" onclick="getvalue('/')">/</button>
+        </div>
+ 
+        <div class="line1">
+            <button class="a" onclick="getvalue('1')">1</button>
+            <button class="b" onclick="getvalue('2')">2</button>
+            <button class="c" onclick="getvalue('3')">3</button>
+            <button class="eight" onclick="getvalue('*')">x</button>
+        </div>
+
+        <div class="line1">
+            <button class="dot" onclick="getvalue('.')">.</button>
+            <button class="b" onclick="getvalue('0')">0</button>
+            <button class="c" onclick="calc()">=</button>
+            <button class="ninth" onclick="getvalue('+')">+</button>
+        </div> 
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
